@@ -28,4 +28,7 @@ print(bookslist)
 ```py
 print(res.hit)
 ```
+```py
+>>> 272 hits
+```
 
