@@ -1,4 +1,6 @@
 # 📘Litindex
+![PyPI - Format](https://img.shields.io/pypi/format/Litindex)
+
 ### Search for books and various information about books
 ```py
 pip install Litinde
