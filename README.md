@@ -11,4 +11,7 @@ pip install Litinde
 import Litindex
 res=Litindex.Litindex("Pollyanna (Apple Classics)")
 ```
-#Methods
+# Methods
+```py
+res.books(pages:int=1)
+```
