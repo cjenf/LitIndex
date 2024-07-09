@@ -26,7 +26,7 @@ print(bookslist)
 </details>
 
 ```py
-print(res.hit)
+print(res.hit) # hits counts
 >>> 272 hits
 ```
 
