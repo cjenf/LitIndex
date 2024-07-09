@@ -32,11 +32,19 @@ print(res.hit) # hits counts
 
 # details
 ```res.title(_title="Eleanor H. Porter's Pollyanna")```
+
 ```res.rate(_title="Eleanor H. Porter's Pollyanna")```
+
 ```res.author(_title="Eleanor H. Porter's Pollyanna")```
+
 ```res.description(_title="Eleanor H. Porter's Pollyanna")```
+
 ```res.publisher(_title="Eleanor H. Porter's Pollyanna")```
+
 ```res.language(_title="Eleanor H. Porter's Pollyanna")```
+
 ```res.pages(_title="Eleanor H. Porter's Pollyanna")```
+
 ```res.publish_date(_title="Eleanor H. Porter's Pollyanna")```
+
 ```res.series(_title="Eleanor H. Porter's Pollyanna")```
