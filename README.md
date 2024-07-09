@@ -8,12 +8,12 @@
 ```py
 pip install Litinde
 ```
-# Simple Example
+## Simple Example
 ```py
 import Litindex
 res=Litindex.Litindex("Pollyanna")
 ```
-# Search for related books
+## Search for related books
 ```py
 bookslist=res.books(pages:int=1)
 print(bookslist)
@@ -32,7 +32,7 @@ print(res.hit) # hits counts
 >>> 272 hits
 ```
 
-# details
+## details
 ```res.title(_title="Eleanor H. Porter's Pollyanna")```
 > **The title of the book**
 
