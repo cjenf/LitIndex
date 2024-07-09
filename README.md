@@ -3,7 +3,7 @@
 ![Github-issues](https://img.shields.io/github/issues/cjenf/Litindex.svg?style=for-the-badge)
 
 ## Search for books and various information about books
-### This project uses the API provided by ![openlibrary](https://openlibrary.org)
+**This project uses the API provided by ![openlibrary](https://openlibrary.org/)**
 
 ```py
 pip install Litinde
