@@ -12,6 +12,4 @@ import Litindex
 res=Litindex.Litindex("Pollyanna (Apple Classics)")
 ```
 # Methods
-```py
-res.books(pages:int=1)
-```
+```res.books(pages:int=1)```
