@@ -11,5 +11,7 @@ pip install Litinde
 import Litindex
 res=Litindex.Litindex("Pollyanna (Apple Classics)")
 ```
-# Methods
+# Search for related books
 ```res.books(pages:int=1)```
+<details>
+    <summary>See Example Output</summary>
