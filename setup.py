@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name = "Litindex",                                                                                                                              
-    version = "0.0.1",
+    version = "0.0.2",
     author = "Cheng",
     license='MIT license',
     author_email="cjenf844747@gmail.com",

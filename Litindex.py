@@ -40,6 +40,7 @@ class Litindex:
                         )
                     } for book in self.parser.css("ul.list-books li")
             ]
+            
 
         elif page>1:
             self._books=[]
@@ -91,10 +92,10 @@ class Litindex:
         title={}
 
         title.update(
-            title:=_title
+            title=_title
         )
 
-        return _title
+        return title
     
     def rate(self,*,_title:str) -> dict:
         ''' rate of the book '''
@@ -137,17 +138,22 @@ class Litindex:
     
     def description(self,*,_title:str) -> str:
         ''' description of the book '''
-        description=''
+        description_={}
         perser=self._bookinfo(_title)
         description_name=perser.css_first('div.book-description p')
 
         if description_name:
             description_text=description_name.text(strip=True)
-            description.join(description_text)
+            description_.update(
+                description=description_text
+            )
+            
         else:
-            description.join('NoInformation')
+            description_.update(
+                description='NoInformation'
+            )
 
-        return description_name
+        return description_
     
     def publisher(self,*,_title:str) -> dict:
         ''' publisher of the book '''
@@ -228,12 +234,13 @@ class Litindex:
         ''' series of the book '''
         series={}
         perser=self._bookinfo(_title)
-        series_name=perser.css_first('dl.meta dd.object').text(strip=True)
+        series_=perser.css_first('dl.meta dd.object')
 
-        if perser.css_first('dl.meta dt').text(strip=True)=='Series':
-            series.update(
-                series=series_name
-            )
+        if series_:
+            if series_.text(strip=True)=='Series':
+                series.update(
+                    series=series_
+                )
 
         else:
             series.update(
