@@ -2,8 +2,8 @@
 ![PyPI - Format](https://img.shields.io/pypi/format/Litindex?style=for-the-badge)
 ![Github-issues](https://img.shields.io/github/issues/cjenf/Litindex.svg?style=for-the-badge)
 
-## Search for books and various information about books
-**This project  provided by [openlibrary](https://openlibrary.org/)**
+## Search for books and various information about books.
+**This project  provided by [openlibrary](https://openlibrary.org/).**
 # Usage
 ```py
 pip install Litinde
