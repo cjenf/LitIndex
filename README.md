@@ -32,6 +32,7 @@ print(res.hit) # hits counts
 
 # details
 ```res.title(_title="Eleanor H. Porter's Pollyanna")```
+> **The title of the book**
 
 ```res.rate(_title="Eleanor H. Porter's Pollyanna")```
 
