@@ -35,17 +35,25 @@ print(res.hit) # hits counts
 > **The title of the book**
 
 ```res.rate(_title="Eleanor H. Porter's Pollyanna")```
+> **The rate of the book**
 
 ```res.author(_title="Eleanor H. Porter's Pollyanna")```
+> **The author of the book**
 
 ```res.description(_title="Eleanor H. Porter's Pollyanna")```
+> **The description of the book**
 
 ```res.publisher(_title="Eleanor H. Porter's Pollyanna")```
+> **The publisher of the book**
 
 ```res.language(_title="Eleanor H. Porter's Pollyanna")```
+> **The language of the book**
 
 ```res.pages(_title="Eleanor H. Porter's Pollyanna")```
+> **The pages of the book**
 
 ```res.publish_date(_title="Eleanor H. Porter's Pollyanna")```
+> **The publish_date of the book**
 
 ```res.series(_title="Eleanor H. Porter's Pollyanna")```
+> **The series of the book**
