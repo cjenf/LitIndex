@@ -3,3 +3,8 @@
 ```py
 pip install Litinde
 ```
+# Simple Example
+```
+import Litindex
+res=Litindex.Litindex("Pollyanna (Apple Classics)")
+```
