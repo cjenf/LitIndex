@@ -33,7 +33,7 @@ print(res.hit) # hits counts
 ```
 
 ## details⤵️
-**the argument ```_title:str``` must come from ```books()```**
+**🍤 the argument ```_title:str``` must come from ```books()```**
 
 ```res.title(_title="Eleanor H. Porter's Pollyanna")```
 > **The title of the book**
