@@ -2,9 +2,10 @@
 ![PyPI - Format](https://img.shields.io/pypi/format/Litindex?style=for-the-badge)
 ![Github-issues](https://img.shields.io/github/issues/cjenf/Litindex.svg?style=for-the-badge)
 
-## Search for books and various information about books.
+## This module is used to find old books.
 > [!NOTE]
 > **This project  provided by [openlibrary](https://openlibrary.org/).**
+> **Some books may not be found, please forgive me**
 # Usage
 ```py
 pip install Litinde
