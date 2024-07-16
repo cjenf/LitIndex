@@ -3,7 +3,8 @@
 ![Github-issues](https://img.shields.io/github/issues/cjenf/Litindex.svg?style=for-the-badge)
 
 ## Search for books and various information about books.
-**This project  provided by [openlibrary](https://openlibrary.org/).**
+> [!NOTE]
+> **This project  provided by [openlibrary](https://openlibrary.org/).**
 # Usage
 ```py
 pip install Litinde
@@ -31,7 +32,7 @@ print(res.hit) # hits counts
 >>> 272 hits
 ```
 
-## details
+## methods
 > [!NOTE]  
 > ****the argument ```_title:str``` must come from ```books()```****
 
